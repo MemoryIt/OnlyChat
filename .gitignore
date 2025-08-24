@@ -1,0 +1,76 @@
+# =======================
+# 1️⃣ 依赖与构建产物
+# =======================
+
+# npm / yarn 的包目录（不要提交）
+node_modules/
+
+# TypeScript 编译产生的文件夹（如 dist、build 等，视项目结构而定）
+dist/
+build/
+lib/
+tmp/
+
+# 其他可能出现的缓存/临时文件
+.cache/
+coverage/
+
+# tsc 生成的增量编译信息文件（可选不提交）
+*.tsbuildinfo
+
+# =======================
+# 2️⃣ 日志与调试文件
+# =======================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =======================
+# 3️⃣ 系统/IDE 附加文件
+# =======================
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows 暗藏文件（不常见，但可保留）
+Thumbs.db
+Icon?
+
+# IDE / 编辑器配置目录
+.vscode/
+.idea/
+*.iml           # IntelliJ IDEA 的 module 文件
+*.sublime-workspace
+*.sublime-project
+
+# =======================
+# 4️⃣ 环境与证书文件
+# =======================
+
+# 本地环境变量文件（请勿提交）
+.env
+*.env
+
+# SSL 证书相关（如果你不需要在仓库中保留）
+*.pem
+*.crt
+*.key
+
+# Yarn 的缓存/插件目录
+.yarn/cache/
+.yarn/unplugged/
+
+# pnp 相关配置（Pnpm 项目使用时可忽略）
+.pnp.*
+
+# =======================
+# 5️⃣ 其它常见忽略项
+# =======================
+
+# npm/yarn 本地配置文件
+.npmrc
+.yarnrc
+.yarnrc.yml
