@@ -11,6 +11,9 @@ build/
 lib/
 tmp/
 
+# 模型对话历史
+ChatHistory/
+
 # 其他可能出现的缓存/临时文件
 .cache/
 coverage/
