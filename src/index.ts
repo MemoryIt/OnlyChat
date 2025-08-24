@@ -5,9 +5,9 @@ import { ChatNode } from './ChatNode.js';
 async function main() {
   const shared: SharedStore = {};
   const chatnode = new ChatNode();
-  chatnode.setParams({configPath:'./.json.env'})
   chatnode.on("continue", chatnode);
   const pipeline = new Flow(chatnode);
+  pipeline.setParams({configPath:'./.json.env.example'});
   await pipeline.run(shared);
 }
 
